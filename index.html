@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Allison</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#cursos">Cursos y Participaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="avatar-container">
+                <img src="img/fotoo.png" alt="Foto de Allison" class="avatar">
+            </div>
+            <div class="hero-text">
+                <h1>¡Hola!,<br>Soy <span class="nombre">Allison Lia Huerta Ramírez</span></h1>
+                <h2>Ingeniería en Sistemas Computacionales</h2>
+                <div class="social-icons">
+                    <a href="https://github.com/Allyhr" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_.__ally__._?igsh=MXNiczcwOTMyczJvNQ==" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about">
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy Allison Lia Huerta Ramírez, egresada de Ingeniería en Sistemas Computacionales.</p>
+            <p>Mi formación comenzó desde el nivel medio superior, donde cursé una carrera técnica en informática, lo que me permitió adquirir una base sólida en tecnologías de la información desde temprana etapa.</p>
+            <p>Algo que me ha enriquecido mucho es haber colaborado en todas las fases del ciclo de desarrollo: documentación, diseño de interfaces, modelado de bases de datos, programación, pruebas (testing), control de versiones y liderazgo de proyectos.</p>
+            <p>También he tenido la oportunidad de adquirir conocimientos en administración y contabilidad, lo cual me ha permitido desarrollar una mejor comprensión del entorno empresarial y complementar mi perfil con una perspectiva organizacional.</p>
+            <p>En este portafolio comparto algunos de los proyectos que he realizado, y estoy abierta a nuevas oportunidades donde pueda aportar mis habilidades y seguir creciendo profesionalmente.</p>
+        </section>
+
+        <section id="proyectos" class="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-grid">
+                <!-- Proyecto Veterinaria -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="img/sistema-veterinario.png" alt="Sistema de Veterinaria" class="project-img">
+                    </div>
+                    <h3>Sistema de Gestión Veterinaria</h3>
+                    <p>Sistema desarrollado para la gestión de clínicas veterinarias. Cuenta con dos tipos de usuario: veterinario y auxiliar, cada uno con permisos y vistas específicas. Permite registrar, modificar y eliminar información tanto de personal como de pacientes (mascotas), así como llevar un historial detallado de consultas.</p>
+                    <ul class="project-features">
+                        <li>Gestión de usuarios: veterinarios y auxiliares</li>
+                        <li>Registro, edición y eliminación de mascotas</li>
+                        <li>Historial médico de cada mascota con observaciones, medicamentos, exámenes y padecimientos</li>
+                        <li>Sección de estadísticas gráficas sobre padecimientos más comunes</li>
+                        <li>Permisos diferenciados por tipo de usuario</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>MySQL</span>
+                        <span>NetBeans / IntelliJ IDEA</span>
+                        <span>XAMPP</span>
+                    </div>
+                    <a href="https://github.com/Allyhr/sistema-historial-veterinario.git" target="_blank" class="github-btn">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+
+                <!-- Proyecto Invernadero -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="img/sistema-invernadero.png" alt="Sistema de Monitoreo de Invernadero" class="project-img">
+                    </div>
+                    <h3>Sistema de Monitoreo y Automatización para Invernadero</h3>
+                    <p>Aplicación web integrada con hardware mediante Arduino. Permite monitorear en tiempo real las condiciones del invernadero (temperatura y humedad), y automatiza el riego según los niveles detectados.</p>
+                    <ul class="project-features">
+                        <li>Actualización automática de datos en una tabla cada 2 segundos</li>
+                        <li>Dos perfiles de usuario: administrador (gestión de usuarios y visualización de registros) y trabajador (solo lectura)</li>
+                        <li>Integración con sensores de temperatura y humedad, bomba de agua, display LCD, botón y potenciómetro</li>
+                        <li>Activación automática de la bomba según temperatura detectada, o manual mediante botón</li>
+                        <li>Visualización de condiciones en pantalla LCD y almacenamiento en MongoDB</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>MongoDB</span>
+                        <span>Arduino</span>
+                    </div>
+                    <a href="https://github.com/Allyhr/sistema-invernadero.git" target="_blank" class="github-btn">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+
+                
+                <!-- Proyecto Historial Academico -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="img/historial-academico.png" alt="Sistema de Historial Académico" class="project-img">
+                    </div>
+                    <h3>Sistema Web de Historial Académico</h3>
+                    <p>Sistema web que permite la gestión y consulta del historial académico de los estudiantes. Cuenta con tres perfiles de usuario: administrador, personal de control escolar y alumno, cada uno con permisos y vistas específicas.</p>
+                    <ul class="project-features">
+                        <li>Administrador: gestiona usuarios, perfiles y módulos del sistema (activar/desactivar, modificar, eliminar), y visualiza la actividad de otros usuarios</li>
+                        <li>Personal de control escolar: administra carreras, especialidades, materias, retículas, estudiantes y calificaciones</li>
+                        <li>Alumno: puede consultar, imprimir o descargar su historial académico sin necesidad de acudir a control escolar</li>
+                        <li>Control de accesos por rol y estatus de vista (activo/inactivo)</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>PHP</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                        <span>Visual Studio Code</span>
+                        <span>XAMPP</span>
+                    </div>
+                    <a href="https://github.com/Allyhr/sistema-historial-academico.git" target="_blank" class="github-btn">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+
+
+                <!-- Proyecto Titulación -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="img/sistema-titulacion.png" alt="Sistema de Titulación" class="project-img">
+                    </div>
+                    <h3>Sistema de Gestión para el Área de Titulación</h3>
+                    <p>Aplicación de escritorio diseñado para el área de titulación de una universidad. Permite automatizar la generación de certificados de estudios totales a partir de archivos Excel con calificaciones.</p>
+                    <ul class="project-features">
+                        <li>Gestión de carreras, especialidades, materias y plantillas de certificados</li>
+                        <li>Funcionalidad para subir archivos Excel con calificaciones</li>
+                        <li>Validación automática del formato del archivo Excel</li>
+                        <li>Identificación de alumno, carrera y plantilla correspondiente</li>
+                        <li>Mapeo automático de las materias con sus calificaciones hacia la plantilla de certificado</li>
+                        <li>Generación masiva de certificados de estudios totales</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>JavaFX</span>
+                        <span>MySQL</span>
+                        <span>Apache POI (para manejo de Excel)</span>
+                        <span>IntelliJ IDEA</span>
+                        <span>XAMPP</span>
+                    </div>
+                    <a href="https://github.com/Allyhr/sistema-cetificados-totales.git" target="_blank" class="github-btn">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+
+
+                <!-- Proyecto Tenebrio Molitor -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="img/sistema-tenebrio.png" alt="Sistema de Cría de Tenebrio Molitor" class="project-img">
+                    </div>
+                    <h3>Sistema de Gestión para Cría de Tenebrio Molitor</h3>
+                    <p>Sistema de escritorio que permite gestionar unidades de cría de Tenebrio molitor, utilizado en procesos de entomocultura industrial. Automatiza el seguimiento de condiciones clave como alimentación, limpieza y variables ambientales, mejorando la eficiencia y precisión del manejo.</p>
+                    <ul class="project-features">
+                        <li>Registro, edición y eliminación de unidades de cría</li>
+                        <li>Captura de datos como dimensiones, biomasa, densidad, técnica utilizada, ubicación y condiciones ambientales (temperatura, humedad, oxigenación)</li>
+                        <li>Cálculo automático de volumen y densidad</li>
+                        <li>Notificaciones programadas para alimentación, limpieza y cambios de estado</li>
+                        <li>Interfaz con barra de navegación: Inicio, Configurar, Registrar usuario, Cerrar sesión</li>
+                        <li>Configuración personalizada del intervalo de notificaciones</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>MySQL</span>
+                        <span>Visual Studio Code</span>
+                        <span>XAMPP</span>
+                    </div>
+                    <a href="https://github.com/Allyhr/sistema-tenebrio-molitor.git" target="_blank" class="github-btn">
+                        <i class="fab fa-github"></i> Ver en GitHub
+                    </a>
+                </div>
+
+        </section>
+
+        <section id="cursos" class="courses">
+            <h2>Cursos y Participación</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-img-container">
+                        <img src="img/administrador-bd.png" alt="Curso Administrador de Bases de Datos" class="course-img">
+                    </div>
+                    <h3>Administrador de Bases de Datos – Capacítate para el Empleo</h3>
+                    <p>Curso enfocado en la gestión, mantenimiento y seguridad de bases de datos. Aprendí a administrar usuarios, realizar respaldos, optimizar el rendimiento y aplicar buenas prácticas para el manejo de información.</p>
+                </div>
+
+                
+                <div class="course-card">
+                    <div class="course-img-container">
+                        <img src="img/congreso-verano.png" alt="Congreso Internacional de Verano de Investigación 2024" class="course-img">
+                    </div>
+                    <h3>Congreso Internacional de Verano de Investigación en Ciencia y Tecnología 2024</h3>
+                    <p>Participación en el desarrollo de un sistema de gestión para la cría de Tenebrio molitor, enfocado en el monitoreo y automatización de variables críticas en entomocultura. Proyecto realizado como parte del programa de investigación durante el congreso.</p>
+                </div>
+
+                
+                <div class="course-card">
+                    <div class="course-img-container">
+                        <img src="img/jornada-tecnologia.png" alt="Exhibición de Proyectos en el TUVCH" class="course-img">
+                    </div>
+                    <h3>Exhibición de Proyectos – Jornada de Ciencia y Tecnología</h3>
+                    <p>Presentación del sistema de gestión para la cría de Tenebrio molitor en el Tecnológico Universitario del Valle de Chalco (TUVCH), como parte de la jornada de ciencia y tecnología. Participación orientada a la divulgación de soluciones tecnológicas aplicadas a la entomocultura.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Modal para imágenes -->
+        <div id="imageModal" class="modal">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="modalCaption"></div>
+        </div>
+
+        <section id="contacto" class="contact">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Ixtapaluca, Estado de México</p>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <p>55 7338 2824</p>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>55 7338 2824</p>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>allisonlia.hr@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Allison Lia Huerta Ramírez. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
